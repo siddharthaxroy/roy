@@ -1,6 +1,7 @@
 # PEOPLE — three groups: graduate, undergraduate, alumni (alphabetical by last name).
 # To add someone, copy a block within the right group. Put the photo in content/people/.
 # Fields: name (required); photo, field, role, bio (optional)
+# Indentation matters: "- name:" has 2 spaces before it; the other fields have 4.
 
 graduate:
 
@@ -18,7 +19,7 @@ graduate:
 
 undergraduate:
 
-   - name: Charlene Guo
+  - name: Charlene Guo
     photo: charlene.png
     field: Environmental Science
     role: GHC Thesis
@@ -30,54 +31,54 @@ undergraduate:
     role: GHC Thesis
     bio: Parie is a senior majoring in Mechanical Engineering and Environmental Policy, Institutions, and Behavior. She is interested in technical and policy applications for environmental health related issues. Her current project focuses on lead leaching behavior from lead-lined galvanized pipes throughout the state of New Jersey.
 
-- name: Alan Lai
-  photo: alan.jpg
-  field: Computer Science
-  role: Aresty Research Assistant (2026-27) 
-  bio: Alan is a junior majoring in Computer Science and minoring in Mathematics. He is interested in computer algorithms, machine learning, and artificial intelligence, and enjoys developing impactful software solutions. His current research focuses on AI-driven innovations for water quality monitoring.
-  
+  - name: Alan Lai
+    photo: alan.jpg
+    field: Computer Science
+    role: Aresty Research Assistant (2026-27)
+    bio: Alan is a junior majoring in Computer Science and minoring in Mathematics. He is interested in computer algorithms, machine learning, and artificial intelligence, and enjoys developing impactful software solutions. His current research focuses on AI-driven innovations for water quality monitoring.
+
   - name: Dan Mayster
     photo: dan-mayster.jpg
     field: Data Science & Economics
     role: Aresty Research Assistant (2025-26) and Undergraduate Researcher
     bio: Dan is a third-year student studying Data Science and Economics. He is interested in deriving insights from data in the fields of public health and finance. He is excited to help track water lead remediation efforts in New Jersey public schools.
 
-- name: Angie Ramos
-  photo: angie.jpg
-  field: Civil Engineering
-  role: Aresty Research Assistant (2026-27) 
-  bio: Angie is a sophomore majoring in Civil Engineering with a minor in Business Administration. She is passionate about using engineering to serve communities and solve real-world challenges. Her research examines lead release in public water systems and its impacts on public health, with the goal of contributing to safer and healthier communities.
-  
+  - name: Angie Ramos
+    photo: angie.jpg
+    field: Civil Engineering
+    role: Aresty Research Assistant (2026-27)
+    bio: Angie is a sophomore majoring in Civil Engineering with a minor in Business Administration. She is passionate about using engineering to serve communities and solve real-world challenges. Her research examines lead release in public water systems and its impacts on public health, with the goal of contributing to safer and healthier communities.
+
   - name: Fajar Shafique
-  photo: fajar.jpg
-  field: Chemical Engineering
-  role: Aresty Research Assistant (2026-27) 
-  bio: Fajar is a sophomore majoring in Chemical Engineering with interests in product development and sustainability. Her research focuses on lead leaching from water pipes into drinking water and its implications for water quality.
+    photo: fajar.jpg
+    field: Chemical Engineering
+    role: Aresty Research Assistant (2026-27)
+    bio: Fajar is a sophomore majoring in Chemical Engineering with interests in product development and sustainability. Her research focuses on lead leaching from water pipes into drinking water and its implications for water quality.
 
-- name: Juliania Shyprykevych
-  photo: juliania.jpg
-  field: Computer Science and Cognitive Science
-  role: Aresty Research Assistant (Summer 2026) and Undergraduate Researcher
-  bio: Juliana is a third-year undergraduate student double majoring in Computer Science and Cognitive Science. Her research focuses on developing and deploying a mobile application capable of predicting chlorine concentrations from smartphone images. Outside of research, she serves as a Lead Instructional Assistant in the Computer Science Department and is passionate about applying programming to practical problems.
+  - name: Juliania Shyprykevych
+    photo: juliania.jpg
+    field: Computer Science and Cognitive Science
+    role: Aresty Research Assistant (Summer 2026) and Undergraduate Researcher
+    bio: Juliana is a third-year undergraduate student double majoring in Computer Science and Cognitive Science. Her research focuses on developing and deploying a mobile application capable of predicting chlorine concentrations from smartphone images. Outside of research, she serves as a Lead Instructional Assistant in the Computer Science Department and is passionate about applying programming to practical problems.
 
-- name: Jesse Schwab
-  photo: jesse.jpg
-  field: Biological Sciences
-  role: Aresty Research Assistant (2026-27) 
-  bio: Jesse is a junior majoring in Biological Sciences with aspirations of becoming a Physician Assistant in cardiovascular surgery. His research interests focus on evaluating and improving public health policies and protocols that may unintentionally affect the health of schoolchildren. He currently works as a Medical Assistant in a pediatric practice and as an Emergency Medical Technician, experiences that have strengthened his commitment to medicine, public health, and patient advocacy.
-  
+  - name: Jesse Schwab
+    photo: jesse.jpg
+    field: Biological Sciences
+    role: Aresty Research Assistant (2026-27)
+    bio: Jesse is a junior majoring in Biological Sciences with aspirations of becoming a Physician Assistant in cardiovascular surgery. His research interests focus on evaluating and improving public health policies and protocols that may unintentionally affect the health of schoolchildren. He currently works as a Medical Assistant in a pediatric practice and as an Emergency Medical Technician, experiences that have strengthened his commitment to medicine, public health, and patient advocacy.
+
   - name: Marisol Torres
-  photo: marisol.jpg
-  field: Biochemistry
-  role: Aresty Research Assistant (2026-27) 
-  bio: Marisol is a junior majoring in Biochemistry with a specialization in Toxicology. She is passionate about public health, science communication, and environmental science. Her research focuses on water remediation efforts in public schools across New Jersey.
+    photo: marisol.jpg
+    field: Biochemistry
+    role: Aresty Research Assistant (2026-27)
+    bio: Marisol is a junior majoring in Biochemistry with a specialization in Toxicology. She is passionate about public health, science communication, and environmental science. Her research focuses on water remediation efforts in public schools across New Jersey.
 
   - name: Clairie Zhao
-  photo: clairie.jpg
-  field: Computer Science and Math
-  role: Aresty Research Assistant (2026-27) 
-  bio: Clairie is a junior majoring in Computer Science and Mathematics. She is interested in applying machine learning to challenges in biology and chemistry that address societal needs. Her current project involves developing a machine learning model to predict elemental composition from XRF spectral data.
-  
+    photo: clairie.jpg
+    field: Computer Science and Math
+    role: Aresty Research Assistant (2026-27)
+    bio: Clairie is a junior majoring in Computer Science and Mathematics. She is interested in applying machine learning to challenges in biology and chemistry that address societal needs. Her current project involves developing a machine learning model to predict elemental composition from XRF spectral data.
+
 alumni:
 
   - name: Emily Newton
@@ -92,13 +93,13 @@ alumni:
     role: Aresty Research Assistant (2024-25) and Graduate Researcher (2025)
     bio: 'Research Topic: Automated classification of corrosion failures using convolutional neural networks. Poster presented at Aresty Research Symposium.'
 
- - name: Aniya Elliott
+  - name: Aniya Elliott
     photo: aniya-elliott.jpg
     field: Public Health
     role: Aresty Research Assistant
     bio: 'Research Topic: Pb water testing and remediation in NJ schools. Poster presented at Aresty Research Symposium.'
 
- - name: Juliana Jusino
+  - name: Juliana Jusino
     photo: juliana-jusino.jpg
     field: Environmental Science
     role: Aresty Research Assistant
@@ -141,7 +142,7 @@ alumni:
     bio: 'Research Topic: Identify and formulate intervention processes to alleviate psychological effects of negative messaging (nocebo), particularly in children post-environmental crises. Poster presented at Aresty Research Symposium.'
 
   - name: Ishani Bhaumik
-    photo: ishani-bhaumik.png
+    photo: ishani-bhaumik.jpg
     field: Chemistry
     role: Aresty Research Assistant (Fall 2024)
     bio: 'Research Topic: Investigate trends of lead release from pipes into potable water in New Jersey.'
@@ -169,4 +170,3 @@ alumni:
     field: Biotechnology
     role: Science Communication Intern (Spring 2024)
     bio: 'Research Topic: Policies to mitigate lead in drinking water in low- and middle-income countries.'
-

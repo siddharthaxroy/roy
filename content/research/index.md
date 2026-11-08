@@ -1,6 +1,5 @@
 ---
 title: "Research Publications"
-cover: "posts/004-graphical-abstract.png"
 ---
 
 *If you encounter a paywall, email me to request the full paper.*

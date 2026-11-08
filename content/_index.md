@@ -20,11 +20,11 @@ We aspire to be the tide that raises all boats.
 
 ## At a Glance  
 
-- **Researchers:** 2 PhD, 2 MS, and 8 undergraduate students.
+- **Current Researchers:** 2 PhD and 10 undergraduate students.
 - **Traditional Outputs:** 25+ peer-reviewed articles, 50+ conference talks, and 100+ public lectures, including a TED talk.
 - **Policy Impact:** U.S. Lead and Copper Rule Improvements, the U.S. $1T Infrastructure Bill (Lead Pipe Replacement), and safe water implementation in Ghana.
-- **Funding:** ACX, Hilton Foundation, Moore Foundation, NIEHS, Rutgers, and USGS.
-- **Media Coverage:** The New York Times, The Boston Globe, BBC, PBS, NPR, and WIRED.
+- **Funding:** Exxon Mobil, Hilton Foundation, NIEHS, Rutgers, and USGS.
+- **Media Coverage:** The New York Times, The Boston Globe, The Guardian, BBC, PBS, NPR, and WIRED.
 - **Service:** World Health Organization, U.S. Environmental Protection Agency, NJ Department of Environmental Protection, and Rural Water Supply Network.
 - **Courses:** Intro to Environmental Science; Science/Engineering for the Public Good; Water and Wastewater Treatment.
 - **Public Engagement:** 15+ community-engaged projects to advance safe water and improve health outcomes, including helping uncover the Flint Water Crisis.   

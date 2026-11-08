@@ -10,12 +10,12 @@ Roy’s research group integrates laboratory experiments, field investigations, 
 
 As a PhD student, Roy co-led the Virginia Tech team’s scientific and humanitarian relief efforts with residents of Flint, Michigan, which helped uncover the Flint Water Crisis. These efforts contributed to the declaration of a “Public Health Emergency” by President Obama, secured over $1.3 billion in relief funding, and informed the 2018 Michigan Lead and Copper Rule, the 2021 $1 trillion federal Infrastructure Investment and Jobs Act (H.R. 3684), and the 2024 U.S. EPA Lead and Copper Rule Improvements. His work has been featured in The New York Times, BBC World Service, and the PBS® NOVA documentary Poisoned Water, and his TED Talk, Science in Service to the Public Good, has been viewed more than 1.6 million times worldwide. He prioritizes science storytelling through op-eds, documentaries, and podcasts to advance public understanding of and trust in science.
 
-Roy received a PhD in Civil and Environmental Engineering from Virginia Tech under the supervision of Dr. Marc Edwards, where he was named Graduate Student of the Year. His work has received prizes and recognition from organizations including the American Association for the Advancement of Science (AAAS), the American Civil Liberties Union (ACLU), the American Society of Civil Engineers (ASCE), the American Water Works Association (AWWA), the Boston Globe, the International Water Association (IWA), Oak Ridge Associated Universities (ORAU), and the Obama Foundation.
+Roy received a PhD in Civil and Environmental Engineering from Virginia Tech under the supervision of Dr. Marc Edwards, where he was named Graduate Student of the Year. His work has received prizes and recognition from organizations including the American Association for the Advancement of Science (AAAS), the American Civil Liberties Union (ACLU), the American Society of Civil Engineers (ASCE), the American Water Works Association (AWWA), the Boston Globe, the International Water Association (IWA), Oak Ridge Associated Universities (ORAU), the Royal Society, Sense About Science, and the Obama Foundation.
 
 email: roy[dot]s[at]rutgers[dot]edu; office: 848-932-5780.
 
 Affiliations:
-1) Scholarly Affiliate, Rutgers Artificial Intelligence and Data Science (RAD) Collaboratory
+Environmental Engineering; Rutgers Artificial Intelligence and Data Science (RAD) Collaboratory; South Asian Studies Program.
 
 [Principles](/principles/) | [Events](/events/) | [Press](/press/)
 
@@ -41,15 +41,15 @@ Affiliations:
 ------
 ### teaching
 
-***1. Introduction to Environmental Science (11\:375\:101)***
+*1. Introduction to Environmental Science (11\:375\:101)*
 
 \[Undergraduate] every Fall.
 
-***2. Science and Engineering for the Public Good (11\:375\:465; 16\:375\:565)***
+*2. Science and Engineering for the Public Good (11\:375\:465; 16\:375\:565)*
 
 \[Undergraduate and Graduate] every other Spring.
 
-***3. Water and Wastewater Treatment (11\:375:\302; 16\:375\:504)***
+*3. Water and Wastewater Treatment (11\:375:\302; 16\:375\:504)*
 
 \[Undergraduate and Graduate] every Fall.
 

@@ -1,0 +1,9 @@
+<header class="header">
+  <div class="header__inner">
+    <a href="/" class="header__logo"><img src="{{ site.Params.logo }}" alt="{{ site.Title }}"></a>
+    <button class="header__toggle" id="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="header__nav" id="menu">
+      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </nav>
+  </div>
+</header>

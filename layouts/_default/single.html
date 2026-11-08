@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  {{ if and .Date (eq .Section "posts") }}<p class="page__date">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+  {{ with .Params.cover }}<img class="page__cover" src="{{ . | absURL }}" alt="">{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

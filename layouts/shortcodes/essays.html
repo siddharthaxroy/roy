@@ -1,0 +1,12 @@
+{{/* Op-ed cards (2 per row). Edit data/essays.yaml. */}}
+<div class="cards cards--two">
+{{ range site.Data.essays }}
+  <a class="card card--essay" href="{{ .url }}">
+    {{ with .image }}<img class="card__img" src="{{ . }}" alt="">{{ end }}
+    <div class="card__body">
+      <h3>{{ .title }}</h3>
+      <p class="card__note">{{ .source | markdownify }}</p>
+    </div>
+  </a>
+{{ end }}
+</div>

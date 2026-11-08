@@ -1,0 +1,7 @@
+{{/* Replaces Hugo's built-in tweet shortcode, which calls Twitter's
+     retired API during the build and breaks Netlify deploys.
+     Usage: {{< tweet 1466444187369357314 >}}  */}}
+{{- $id := .Get 0 -}}
+<blockquote class="tweet">
+  <a href="https://twitter.com/i/status/{{ $id }}" target="_blank" rel="noopener">View this post on X/Twitter ↗</a>
+</blockquote>

@@ -1,0 +1,109 @@
+/* Roy Water Lab — the only stylesheet for the site.
+   Change the colors here to restyle everything. */
+:root {
+  --red: #CC0033;
+  --red-dark: #aa0028;
+  --text: #202B30;
+  --muted: #5D7E8C;
+  --bg: #f8f8f8;
+  --line: #e0e0e0;
+  --dark: #1a1a1a;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Work Sans', system-ui, sans-serif; line-height: 1.7; color: var(--text); background: var(--bg); }
+h1, h2, h3 { font-family: 'Merriweather', Georgia, serif; line-height: 1.3; }
+h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 2.4rem; margin: 0 0 1rem; }
+h2 { font-size: 1.6rem; margin-top: 2.5rem; padding-bottom: .3rem; border-bottom: 3px solid var(--red); }
+h3 { font-size: 1.15rem; }
+a { color: var(--red); }
+a:hover { color: var(--red-dark); }
+img { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+.page__date { color: var(--muted); margin-top: -.5rem; }
+.page__cover { display: block; margin: 0 auto 2rem; border-radius: 8px; }
+.button { display: inline-block; padding: .6rem 1.2rem; background: var(--red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 600; }
+.button:hover { background: var(--red-dark); color: #fff; }
+.post-list li { margin-bottom: 1rem; }
+
+/* Figures/images from the {{< figure >}} and {{< image >}} shortcodes */
+figure { margin: 1.5rem 0; }
+figure.center, img.center { margin-left: auto; margin-right: auto; display: block; text-align: center; }
+figcaption { font-size: .9rem; color: var(--muted); }
+
+/* Header */
+.header { background: var(--dark); border-bottom: 4px solid var(--red); position: sticky; top: 0; z-index: 10; }
+.header__inner { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.header__logo img { height: 50px; display: block; }
+.header__nav a { color: #fff; text-decoration: none; font-weight: 600; letter-spacing: .05em; margin-left: 2rem; }
+.header__nav a:hover { color: var(--red); }
+.header__toggle { display: none; background: none; border: 0; cursor: pointer; padding: .5rem; }
+.header__toggle span { display: block; width: 24px; height: 3px; margin: 4px 0; background: #fff; }
+
+/* Footer */
+.footer { background: #0d0d0d; color: #ccc; border-top: 4px solid var(--red); }
+.footer__inner { max-width: 1200px; margin: 0 auto; padding: 3rem 1.5rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center; }
+.footer h3 { color: #fff; font-family: 'Work Sans', sans-serif; font-size: .9rem; letter-spacing: .1em; text-transform: uppercase; }
+.footer__inner > div > a:not(.button) { display: block; color: #ccc; text-decoration: none; }
+.footer a:hover { color: #fff; }
+.footer__logo { max-height: 70px; }
+.footer__social { margin-top: 1rem; }
+.footer__social img { width: 28px; margin: 0 .4rem; }
+.footer__copy { text-align: center; font-size: .85rem; padding: 1rem; margin: 0; border-top: 1px solid #333; }
+
+/* Cards (news, publications, essays, people) */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.cards--small { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.cards--two { grid-template-columns: repeat(2, 1fr); }
+.card { background: #fff; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; color: inherit; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(204, 0, 51, .12); border-color: var(--red); }
+.card__img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.card--person .card__img { aspect-ratio: 1 / 1; object-position: top; }
+.card__body { padding: 1rem 1.25rem 1.25rem; }
+.card__body h3 { margin: .2rem 0 .5rem; }
+.card__body h3 a { color: inherit; text-decoration: none; }
+.card__body h3 a:hover { color: var(--red); }
+.card__body p { margin: .4rem 0; font-size: .95rem; }
+.card__date { color: var(--red); font-weight: 600; font-size: .85rem !important; text-transform: uppercase; letter-spacing: .04em; }
+.card__note { color: var(--muted); font-size: .85rem !important; }
+.card__highlight { background: #fdf0f2; border-left: 3px solid var(--red); padding: .4rem .6rem; font-size: .85rem !important; }
+.tag { display: inline-block; background: #f3f3f3; border-radius: 3px; padding: 0 .5rem; font-size: .8rem !important; }
+.year { margin-top: 3rem; }
+
+/* News rows (thumbnail on the left) */
+.news-row { display: grid; grid-template-columns: 180px 1fr; gap: 1.5rem; padding: 1.5rem 0; border-bottom: 1px solid var(--line); }
+.news-row__thumb { width: 180px; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; display: block; }
+.news-row__thumb--icon { display: flex; align-items: center; justify-content: center; font-size: 3rem; background: #f0f0f0; }
+.news-row h3 { margin: .1rem 0 .4rem; }
+.news-row p { margin: .3rem 0; }
+.news-row__date { color: var(--red); font-weight: 600; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
+.news-row a { font-weight: 600; text-decoration: none; }
+
+/* Videos keep a 16:9 shape at any width */
+.video { position: relative; padding-bottom: 56.25%; height: 0; margin: 1rem 0; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* Tweets (link only — see layouts/shortcodes/tweet.html) */
+.tweet { border-left: 3px solid var(--red); margin: 1rem 0; padding: .5rem 1rem; background: #fff; }
+
+/* Home-page carousel */
+.carousel { position: relative; aspect-ratio: 16 / 9; background: #000; border-radius: 6px; overflow: hidden; margin: 1.5rem 0; }
+.carousel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .6s; }
+.carousel img.active { opacity: 1; }
+.carousel button { position: absolute; bottom: 1rem; width: 44px; height: 44px; border: 0; border-radius: 4px; background: rgba(204, 0, 51, .85); color: #fff; font-size: 1.8rem; line-height: 1; cursor: pointer; }
+.carousel__prev { right: 4.5rem; }
+.carousel__next { right: 1rem; }
+
+/* Phones and small tablets */
+@media (max-width: 768px) {
+  h1 { font-size: 1.9rem; }
+  .header__toggle { display: block; }
+  .header__nav { display: none; width: 100%; padding-top: 1rem; }
+  .header__nav.open { display: block; }
+  .header__nav a { display: block; margin: 0; padding: .5rem 0; }
+  .footer__inner, .cards--two { grid-template-columns: 1fr; }
+  .news-row { grid-template-columns: 100px 1fr; gap: 1rem; }
+  .news-row__thumb { width: 100px; }
+}

@@ -1,0 +1,43 @@
+# ESSAYS & OP-EDS (shown on the Outreach page) — newest first.
+# image: put the file in static/public/ (or wherever it already lives) and use its /path
+
+- title: As Flint Reeled From a Water Crisis, Words May Have Caused Harm
+  source: '*Undark* (with Keith Petrie and Marc Edwards) • 2023'
+  url: https://undark.org/2023/03/30/as-flint-reeled-from-a-water-crisis-words-may-have-caused-harm/
+  image: /outreach/undark2.png
+
+- title: Who Dares to Speak Up? An Interview with Tuskegee Whistleblower Peter Buxtun
+  source: '*American Scientist* (with Marc Edwards and Carol Yang) • 2021'
+  url: https://www.americanscientist.org/article/who-dares-to-speak-up
+  image: /outreach/amsci2.png
+
+- title: What Can We Learn from Misinformation on Scientific Matters in the Water Space?
+  source: '*International Water Association* • 2020'
+  url: https://iwa-network.org/what-can-we-learn-from-misinformation-on-scientific-matters-in-the-water-space/
+  image: /outreach/iwa.png
+
+- title: From Sewage Sludge, a New Perspective on the Flint Water Crisis
+  source: '*Undark* (with Marc Edwards; syndicated in Mother Jones) • 2020'
+  url: https://undark.org/2020/09/17/flint-water-crisis-sewage/
+  image: /outreach/undark.png
+
+- title: Flint Water Crisis Shows the Dangers of a Scientific Dark Age
+  source: '*CNN* (with Marc Edwards) • 2019'
+  url: https://edition.cnn.com/2019/03/14/opinions/flint-water-myths-scientific-dark-age-roy-edwards/index.html
+  image: /outreach/cnn.png
+
+- title: Science is a Public Good in Peril - Here's How to Fix It
+  source: '*Aeon* (with Marc Edwards) • 2017'
+  url: https://aeon.co/essays/science-is-a-public-good-in-peril-heres-how-to-fix-it
+  image: /outreach/aeon.png
+
+- title: The Hand-in-Hand Spread of Mistrust and Misinformation in Flint
+  source: '*American Scientist* (Feature Article) • 2017'
+  url: https://www.americanscientist.org/article/the-hand-in-hand-spread-of-mistrust-and-misinformation-in-flint
+  image: /outreach/amsci.png
+
+- title: We Helped Uncover a Public Health Crisis in Flint, but Learned There Are Costs to Doing Good Science
+  source: '*The Conversation* (with William J. Rhoads and Rebekah Martin; syndicated in PBS, Scientific American) • 2016'
+  url: https://theconversation.com/we-helped-uncover-a-public-health-crisis-in-flint-but-learned-there-are-costs-to-doing-good-science-54227
+  image: /outreach/conversation.png
+

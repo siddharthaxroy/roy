@@ -1,0 +1,24 @@
+{{ $p := site.Params }}
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <img src="{{ $p.footerLogo }}" alt="Rutgers University" class="footer__logo">
+      <div class="footer__social">
+        {{ with $p.twitter }}<a href="https://twitter.com/{{ . }}" title="Twitter"><img src="/img/icon-twitter.png" alt="Twitter"></a>{{ end }}
+        {{ with $p.instagram }}<a href="https://instagram.com/{{ . }}" title="Instagram"><img src="/img/icon-instagram.png" alt="Instagram"></a>{{ end }}
+        {{ with $p.googlescholar }}<a href="{{ . }}" title="Google Scholar"><img src="/img/icon-scholar.png" alt="Google Scholar"></a>{{ end }}
+        {{ with $p.substack }}<a href="https://{{ . }}.substack.com" title="Substack"><img src="/img/icon-substack.png" alt="Substack"></a>{{ end }}
+      </div>
+    </div>
+    <div>
+      <h3>Navigation</h3>
+      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>{{ $p.address }}<br>{{ $p.city }}<br><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></p>
+      <a href="/join-us/" class="button">Join us</a>
+    </div>
+  </div>
+  <p class="footer__copy">© {{ now.Year }} {{ site.Title }}</p>
+</footer>

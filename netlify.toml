@@ -1,0 +1,30 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.74.3"
+
+# Old personal domain -> lab site
+[[redirects]]
+  from = "https://siddhartharoy.org/*"
+  to = "https://roy.rutgers.edu/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.siddhartharoy.org/*"
+  to = "https://roy.rutgers.edu/:splat"
+  status = 301
+  force = true
+
+# Old page address -> new one
+[[redirects]]
+  from = "/get-involved/*"
+  to = "/join-us/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/get-involved"
+  to = "/join-us/"
+  status = 301

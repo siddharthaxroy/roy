@@ -1,0 +1,15 @@
+{{/* Publication cards. Edit data/publications.yaml to add papers. */}}
+<div class="cards cards--small">
+{{ range site.Data.publications }}
+  <div class="card card--pub">
+    <div class="card__body">
+      <p class="card__date">{{ .year }}</p>
+      <h3>{{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+      <p><em>{{ .journal }}</em></p>
+      {{ with .role }}<p class="tag">{{ . }}</p>{{ end }}
+      {{ with .doi }}<p class="card__note">DOI: <a href="https://doi.org/{{ . }}">{{ . }}</a></p>{{ end }}
+      {{ with .note }}<p class="card__highlight">{{ . | markdownify }}</p>{{ end }}
+    </div>
+  </div>
+{{ end }}
+</div>

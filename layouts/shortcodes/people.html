@@ -1,0 +1,13 @@
+{{/* Person cards. Usage: {{< people "graduate" >}} (or "undergraduate", "alumni"). Edit data/people.yaml. */}}
+<div class="cards">
+{{ range index site.Data.people (.Get 0) }}
+  <div class="card card--person">
+    {{ with .photo }}<img class="card__img" src="{{ . }}" alt="">{{ end }}
+    <div class="card__body">
+      <h3>{{ .name }}</h3>
+      <p class="card__date">{{ with .field }}{{ . }}<br>{{ end }}{{ .role }}</p>
+      {{ with .bio }}<p>{{ . | markdownify }}</p>{{ end }}
+    </div>
+  </div>
+{{ end }}
+</div>

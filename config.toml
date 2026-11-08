@@ -1,0 +1,43 @@
+# Site settings. Most day-to-day edits happen in content/ and data/, not here.
+baseURL = "/"
+languageCode = "en-us"
+title = "Siddhartha Roy's Group at Rutgers University"
+enableEmoji = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup.goldmark.renderer]
+  unsafe = true   # allow plain HTML inside markdown files
+
+[params]
+  description = "We mentor students, conduct original research, craft data-driven stories to communicate our findings, and provide implementation and policy advice through an ethical lens. Our research program uses a transdisciplinary approach to help answer the question: Is my water safe to drink?"
+  logo = "/img/logo.png"
+  footerLogo = "/img/logowhite.png"
+  address = "59 Dudley Rd, 308"
+  city = "New Brunswick, NJ, USA"
+  email = "roy.s@rutgers.edu"
+  twitter = "siddharthaxroy"
+  instagram = "roylab_rutgers"
+  substack = "siddhartharoy"
+  googlescholar = "https://scholar.google.com/citations?user=AW-b9OwAAAAJ&hl=en"
+
+# Top navigation menu (also shown in the footer)
+[[menu.main]]
+  name = "ABOUT"
+  url = "/about/"
+  weight = 1
+[[menu.main]]
+  name = "PEOPLE"
+  url = "/people/"
+  weight = 2
+[[menu.main]]
+  name = "RESEARCH"
+  url = "/research/"
+  weight = 3
+[[menu.main]]
+  name = "OUTREACH"
+  url = "/outreach/"
+  weight = 4
+[[menu.main]]
+  name = "NEWS"
+  url = "/news/"
+  weight = 5

@@ -1,0 +1,26 @@
+{{/* Home-page slideshow. Shows every file in static/img/ whose name starts with "carousel-"
+     (sorted by name). Usage: {{< carousel >}}  — optional: {{< carousel seconds="5" >}} */}}
+<div class="carousel" data-seconds="{{ .Get "seconds" | default "5" }}">
+  {{ range readDir "static/img" }}{{ if hasPrefix .Name "carousel-" }}
+  <img src="/img/{{ .Name }}" alt="">
+  {{ end }}{{ end }}
+  <button class="carousel__prev" aria-label="Previous">‹</button>
+  <button class="carousel__next" aria-label="Next">›</button>
+</div>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling,
+      slides = box.querySelectorAll('img'), i = 0, timer;
+  function show(n) {
+    slides[i].classList.remove('active');
+    i = (n + slides.length) % slides.length;
+    slides[i].classList.add('active');
+  }
+  function start() { clearInterval(timer); timer = setInterval(function () { show(i + 1); }, box.dataset.seconds * 1000); }
+  if (!slides.length) return;
+  slides[0].classList.add('active');
+  box.querySelector('.carousel__prev').onclick = function () { show(i - 1); start(); };
+  box.querySelector('.carousel__next').onclick = function () { show(i + 1); start(); };
+  start();
+})();
+</script>

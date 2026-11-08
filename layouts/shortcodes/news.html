@@ -1,0 +1,16 @@
+{{/* One news item, shown as a row with a small picture on the left.
+     Usage in content/news/index.md:
+       {{< news date="December 11, 2025" image="25-12-jww.png" >}}
+       ### Headline
+       One or two sentences. [Link text ↗](https://...)
+       {{< /news >}}
+     image is optional (put the file in content/news/). Without it, an icon shows;
+     pick one with icon="🎤". */}}
+<div class="news-row">
+  {{ with .Get "image" }}<img class="news-row__thumb" src="{{ . }}" alt="">
+  {{ else }}<div class="news-row__thumb news-row__thumb--icon">{{ .Get "icon" | default "📰" }}</div>{{ end }}
+  <div>
+    <p class="news-row__date">{{ .Get "date" }}</p>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

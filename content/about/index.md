@@ -1,6 +1,5 @@
 ---
 title: "About"
-cover: "img/rutgers-4.jpg"
 ---
 
 {{< figure src="/img/pbs500x.jpg" position="center" style="border-radius: 8px;" caption="Credit: Rahoul Ghose/PBS" captionPosition="right" captionStyle="color: red;" >}}

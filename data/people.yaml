@@ -4,12 +4,6 @@
 
 graduate:
 
-  - name: Aanand Aggarwal
-    photo: aanand-aggarwal.jfif
-    field: Data Science
-    role: Graduate Researcher
-    bio: Aanand is pursuing a Master of Information in Data Science at Rutgers University with dual bachelor's degrees in Computer Science and IT & Informatics. His research utilizes Python and AI/ML techniques to automate the classification of corrosion images. He plans to apply this background in the health tech sector, addressing challenges in medical diagnostics and health equity.
-
   - name: Eve Butterworth
     photo: eve-butterworth.jpg
     field: Environmental Science
@@ -22,27 +16,41 @@ graduate:
     role: PhD Student
     bio: Jennie's research focuses on drinking water quality, with emphasis on corrosion and metal leaching in decentralized water systems. She aims to improve understanding of corrosion processes and inform safer material choices for drinking water systems in low- and middle-income countries. Her interests include water treatment and sustainable safe drinking water access.
 
+undergraduate:
+
+   - name: Charlene Guo
+    photo: charlene-guo.jpg
+    field: Environmental Science
+    role: Honors Thesis Research
+    bio: Charlene is a junior majoring in Environmental Science interested in water quality management, heavy metal contamination, and the intersection of environmental pollutants and human health. Her current project focuses on lead exposure from contaminated spices and its implications for public health using biokinetic modeling.
+
+   - name: Dan Mayster
+    photo: dan-mayster.jpg
+    field: Data Science & Economics
+    role: Aresty Research Assistant
+    bio: Dan is a third-year student studying Data Science and Economics. He is interested in deriving insights from data in the fields of public health and finance. He is excited to help track water lead remediation efforts in New Jersey public schools.
+
+alumni:
+
   - name: Emily Newton
     photo: emily-newton.jpg
     field: Environmental Science
     role: Masters Student
     bio: Emily is a master's student in Environmental Science with a bachelor's degree in Forensic Science. She is passionate about forensic environmental science and entomology, particularly its relevance to contamination investigations. This year, she will focus on one contamination event to give it thorough analytical attention.
 
-undergraduate:
+  - name: Aanand Aggarwal
+    photo: aanand-aggarwal.jfif
+    field: Data Science
+    role: Graduate Researcher
+    bio: Aanand is pursuing a Master of Information in Data Science at Rutgers University with dual bachelor's degrees in Computer Science and IT & Informatics. His research utilizes Python and AI/ML techniques to automate the classification of corrosion images. He plans to apply this background in the health tech sector, addressing challenges in medical diagnostics and health equity.
 
-  - name: Aniya Elliott
+ - name: Aniya Elliott
     photo: aniya-elliott.jpg
     field: Public Health
     role: Aresty Research Assistant
-    bio: Aniya is a senior majoring in Public Health with a certificate in Cancer Epidemiology and Surveillance. She is passionate about toxicology, environmental health impacts, and health mobility issues. Beyond research, she serves as a Resident Assistant and Community Service Chair for the Haitian Association.
+    bio: 'Research Topic: Pb water testing and remediation in NJ schools. Poster presented at Aresty Research Symposium.'
 
-  - name: Charlene Guo
-    photo: charlene-guo.jpg
-    field: Environmental Science
-    role: Honors Thesis Research
-    bio: Charlene is a junior majoring in Environmental Science interested in water quality management, heavy metal contamination, and the intersection of environmental pollutants and human health. Her current project focuses on lead exposure from contaminated spices and its implications for public health using biokinetic modeling.
-
-  - name: Juliana Jusino
+ - name: Juliana Jusino
     photo: juliana-jusino.jpg
     field: Environmental Science
     role: Aresty Research Assistant
@@ -60,12 +68,6 @@ undergraduate:
     role: Aresty Research Assistant
     bio: Sanskriti is a third-year student pursuing a dual major in Computer Science and Cognitive Science. She is passionate about machine learning, artificial intelligence, and data science, and is curious about how these technologies can improve everyday life.
 
-  - name: Dan Mayster
-    photo: dan-mayster.jpg
-    field: Data Science & Economics
-    role: Aresty Research Assistant
-    bio: Dan is a third-year student studying Data Science and Economics. He is interested in deriving insights from data in the fields of public health and finance. He is excited to help track water lead remediation efforts in New Jersey public schools.
-
   - name: Khang Nguyen
     photo: khang-nguyen.jpg
     field: Environmental Engineering
@@ -75,10 +77,8 @@ undergraduate:
   - name: Willem Weigand
     photo: willem-weigand.jpg
     field: Statistics & Mathematics
-    role: Aresty Research Assistant
-    bio: Willem is a senior majoring in Statistics and Mathematics with a minor in Biology. He works with the Rutgers Formula Racing team and monitors waterways in Central Jersey. His research focuses on tracking progress on water lead remediation efforts in schools.
-
-alumni:
+    role: Aresty Research Assistant (2025-26)
+    bio: 'Research Topic: Pb water testing and remediation in NJ schools. Poster presented at Aresty Research Symposium.'
 
   - name: Olivia Ackerson
     photo: olivia-ackerson.jpg
@@ -89,25 +89,25 @@ alumni:
   - name: Bobo Au-Yeung
     photo: bobo-auyeung.jpg
     field: Psychology & Criminal Justice
-    role: Aresty Research Assistant (Sep 2024-Apr 2025)
+    role: Aresty Research Assistant (2024-25)
     bio: 'Research Topic: Identify and formulate intervention processes to alleviate psychological effects of negative messaging (nocebo), particularly in children post-environmental crises. Poster presented at Aresty Research Symposium.'
 
   - name: Ishani Bhaumik
     photo: ishani-bhaumik.png
     field: Chemistry
-    role: Aresty Research Assistant (Sep-Dec 2024)
+    role: Aresty Research Assistant (Fall 2024)
     bio: 'Research Topic: Investigate trends of lead release from pipes into potable water in New Jersey.'
 
   - name: Daniella Mangibin
     photo: daniella-mangibin.JPG
     field: Computer Science & Data Science
-    role: Aresty Research Assistant (Sep 2024-Apr 2025)
+    role: Aresty Research Assistant (2024-25)
     bio: 'Research Topic: Build a deep learning model focused on corrosion in potable water pipes and plumbing. Poster presented at Aresty Research Symposium.'
 
   - name: Leyla Muñoz
     photo: leyla-munoz.JPG
     field: Public Health
-    role: Aresty Research Assistant (Sep 2024-Apr 2025)
+    role: Aresty Research Assistant (2024-25)
     bio: 'Research Topic: Wastewater and blood lead surveillance; Updates on the Flint Water Crisis. Multiple poster presentations at Aresty Research Symposium, NJWEA Annual Conference 2025, and WPU Annual Research Symposium.'
 
   - name: Bhuvan Bugude

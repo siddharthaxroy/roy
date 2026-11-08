@@ -1,6 +1,5 @@
 ---
 title: "Public Understanding of Science"
-description: "TED, documentaries, op-eds, podcasts, and popular media"
 ---
 
 [TED Talk](#ted) · [Essays](#essays) · [Documentaries](#movies) · [Podcasts](#podcast) · [Websites](#websites) · [Panels](#panels) · [Videos](#videos) · [Profiles](#profiles)

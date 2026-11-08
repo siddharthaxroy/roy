@@ -11,7 +11,7 @@ cover: "img/rutgers-1.jpg"
 
 ---
 
-### Visit our campus {#visit}
+## Visit our campus {#visit}
 
 **Connect with our laboratory and learn about our research and education initiatives in person. We are located in Central Jersey and equidistant from Philaldelphia and New York City.** 
 
@@ -27,7 +27,7 @@ Phone: [(848) 932-5780](tel:8489325780)
 
 ---
 
-### Support our research {#giving}
+## Support our research {#giving}
 
 **Your gift powers excellence in research and education to advance safe water.**
 
@@ -66,7 +66,7 @@ Candidates with degrees, research experience, or professional background in envi
 Interested candidates must apply to and be admitted into the [Environmental Science](https://envsci.rutgers.edu/academics/envsci_grad/how-to-apply.html) or [Environmental Engineering](https://cee.rutgers.edu/environmental-engineering-home-page) graduate program before an assistantship can be offered. PhD students receive five years of guaranteed funding (subject to adequate performance).
  
  
-### Master's Degree in Environmental Science or Environmental Engineering
+### MS in Environmental Science or Environmental Engineering
  
 **Status:** Limited opportunities. We may be able to accept students who bring their own funding (Plan A/Thesis option) or wish to use research credits to pursue a coursework-only Masters (Plan B/Essay option).
  

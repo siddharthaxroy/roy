@@ -62,15 +62,27 @@ With documentarian Erica Corder. [Watch on YouTube ↗](https://www.youtube.com/
 - [The US Water Study Team ↗](http://www.uswaterstudy.org)
 - [Flint Water Study ↗](http://www.flintwaterstudy.org) — 1M+ web traffic. [Read paper on my public engagement via Twitter ↗](https://doi.org/10.1177/1075547017751948)
 
-## Moderated Panels & Discussions {#panels}
+## Moderated Panels and Podcast Appearances {#panels}
 
-### "Academic Freedom and the Flint Water Crisis"
+### Maddox Prize Interview
+
+The Guardian Science Weekly • October 2026
+
+{{< youtube O-iTM4ElAoo >}}
+
+### Bad Idea "Flint Water Poisoned"
+
+Saving the World from Bad Ideas Podcast • October 2026
+
+{{< youtube yiH_nxPaNj4 >}}
+
+### Academic Freedom and the Flint Water Crisis
 
 HxA Conference Panel • June 2025
 
 {{< youtube seOvuKdnfIA >}}
 
-### "The Science and Politics of Journal Retractions"
+### The Science and Politics of Journal Retractions
 
 Conversation with Ivan Oransky, Retraction Watch • May 2022
 

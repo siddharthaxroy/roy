@@ -1,6 +1,5 @@
 ---
 title: "People"
-cover: "img/collage.png"
 ---
 
 1. [Graduate and Postdoctoral Researchers](#graduate-students)
